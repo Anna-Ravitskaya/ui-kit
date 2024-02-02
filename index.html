@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodmood</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid">
+        <p class="subtitle text-background">cетка</p>
+        <p class="text">8 колонок, отступы 20px</p>
+        <div class="grid-container">
+                    <div class="row">
+                        <div class="col col--size-1">
+                            <div class="grid-style"></div>
+                        </div>
+                        <div class="col col--size-1">
+                            <div class="grid-style"></div>
+                        </div>
+                        <div class="col col--size-1">
+                            <div class="grid-style">
+                                <div class="grid-style"></div>
+                            </div>
+                        </div>
+                        <div class="col col--size-1">
+                            <div class="grid-style"></div>
+                        </div>
+                        <div class="col col--size-1">
+                            <div class="grid-style"></div>
+                        </div>
+                        <div class="col col--size-1">
+                            <div class="grid-style"></div>
+                        </div>
+                        <div class="col col--size-1">
+                            <div class="grid-style"></div>
+                        </div>
+                        <div class="col col--size-1">
+                            <div class="grid-style"></div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <div class="indentations">
+        <p class="subtitle text-background">отступы</p>
+        <div class="indentations-container">
+            <div class="indentation">
+                <p class="text">100px</p>
+                <div class="indentation-100"></div>
+            </div>
+            <div class="indentation">
+                <p class="text">50px</p>
+                <div class="indentation-50"></div>
+            </div>
+            <div class="indentation">
+                <p class="text">20px</p>
+                <div class="indentation-20"></div>
+            </div>
+            <div class="indentation">
+                <p class="text">10px</p>
+                <div class="indentation-10"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fonts">
+        <p class="subtitle text-background">типографика</p>
+        <div class="fonts-container">
+            <div class="font accidental">
+                Accidental
+                <div class="text">Comfortaa<br>Bold<br>75px</div>
+            </div>
+            <div class="font heading">
+                Heading
+                <div class="text">Comfortaa<br>Medium<br>64px</div>
+            </div>
+            <div class="font subtitle">
+                Subtitle
+                <div class="text">Comfortaa<br>Semi-bold<br>32px</div>
+            </div>
+            <div class="font button-text">
+                button
+                <div class="text">Comfortaa<br>Bold<br>24px</div>
+            </div>
+            <div class="font body">
+                body
+                <div class="text">Comfortaa<br>regular<br>24px</div>
+            </div>
+            <div class="font caption">
+                Caption
+                <div class="text">Comfortaa<br>bold<br>15px</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="icon-system">
+        <p class="subtitle text-background">иконки</p>
+        <div class="icons-container">
+            <div class="text">Основные 30px</div>
+            <div class="icons">
+                <img class="main-icon" src="images/profile.png">
+                <img class="main-icon" src="images/favourite.png">
+                <img class="main-icon" src="images/address.png">
+                <img class="main-icon" src="images/search.png">
+                <img class="main-icon" src="images/smile.png">
+                <img class="main-icon" src="images/filters.png">
+                <img class="main-icon" src="images/vegan.png">
+            </div>
+        </div>
+        <div class="icons-container">
+            <div class="text">Карточки блюд 16px</div>
+            <div class="icons">
+                <img class="icon" src="images/time.png">
+                <img class="icon" src="images/hardness.png">
+                <img class="icon" src="images/boiling.png">
+                <img class="icon" src="images/frying.png">
+                <img class="icon" src="images/baking.png">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <p class="subtitle text-background">кнопки</p>
+        <div class="buttons">
+            <div class="button-card">
+                <div class="text">Основные на нейтральном фоне</div>
+                <button class="button button-text button--primary">узнать больше<img class="button-icon" src="images/arrow.svg"></button>
+            </div>
+            <div class="button-card">
+                <div class="text">Основные на цветном фоне</div>
+                <button class="button button-text button--secondary">узнать больше<img class="button-icon" src="images/arrow.svg"></button>
+            </div>
+            <div class="button-card">
+                <div class="text">Одиночные на нейтральном фоне</div>
+                <button class="icon-button button--primary"><img class="button-icon" src="images/arrow.svg"></button>
+            </div>
+            <div class="button-card">
+                <div class="text">Одиночные на цветном фоне</div>
+                <button class="icon-button button--secondary"><img class="button-icon" src="images/arrow.svg"></button>
+            </div>
+            <div class="button-card">
+                <div class="text">Изначально задуманная кнопка</div>
+                <div class="composed-button">
+                    <button class="button button-text button--thirdly">узнать больше</button>
+                    <img class="button-divider" src="images/divider.svg">
+                    <button class="icon-button button--thirdly"><img class="button-icon" src="images/arrow.svg"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="inputs">
+        <p class="subtitle text-background">инпуты</p>
+        <div class="inputs-container">
+            <div class="text">Инпуты в разных состояних</div>
+            <div class="input-card">
+                <input class="input" placeholder="Введите ваш e-mail"><div class="icon-button button--secondary"><img class="button-icon" src="images/arrow.svg"></div>
+            </div>
+            <div class="input-card">
+                <input class="input input--active" placeholder="Введите ваш e-mail"><div class="icon-button button--primary"><img class="button-icon" src="images/arrow.svg"></div>
+            </div>
+            <div class="input-card">
+                <input class="input input--error" placeholder="Введите ваш e-mail"><div class="icon-button button--secondary"><img class="button-icon" src="images/arrow.svg"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-window-container">
+        <p class="subtitle text-background">модальное окно</p>
+        <div class="button-card">
+            <div class="text">Нажмите на кнопку, чтобы открыть модальное окно</div>
+            <div id="open-modal" class="icon-button button--primary"><img class="button-icon" src="images/plus.svg"></div>
+        </div>
+        <div class="modal-window" id="modal">
+            <div class="modal">
+                <div class="subtitle modal-subtitle">Хотите сотрудничать?</div>
+                <div class="body">Заполните заявку, и мы с вами свяжемся</div>
+                <input class="input input--active" placeholder="Введите ваш e-mail">
+                <button class="button button-text button--primary">отправить заявку<img class="button-icon" src="images/arrow.svg"></button>
+                <button id="hide-modal" class="icon-button button--primary"><img class="button-icon" src="images/close.svg"></button>
+            </div>
+        </div>
+    </div> 
+    
+    <script src="main.js"></script>   
+</body>
+</html>

@@ -1,0 +1,324 @@
+body {
+    margin: 20px;
+    background-color: #F7F3EC;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.accidental {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.heading {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.subtitle {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.button-text {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.body {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.caption {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.text-background {
+    width: fit-content;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    background-color: #DAEF88;
+    border-radius: 90px;
+    line-height: 70%;
+}
+
+.grid-container {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.grid-style{
+    background-color: #FFFFFF;
+    height: 224px;
+}
+
+.col--size-1 {
+    width: 12.5%;
+}
+
+.col--size-2 {
+    width: 25%;
+}
+
+.col--size-3 {
+    width: 37.5%;
+}
+
+.col--size-4 {
+    width: 50%;
+}
+
+.col--size-5 {
+    width: 62.5%;
+}
+
+.col--size-6 {
+    width: 75%;
+}
+
+.col--size-7 {
+    width: 87.5%;
+}
+
+.col--size-8 {
+    width: 100%;
+}
+
+.indentations-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.indentation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.indentation-100 {
+    background-color: #FFFFFF;
+    height: 100px;
+}
+
+.indentation-50 {
+    background-color: #FFFFFF;
+    height: 50px;
+}
+
+.indentation-20 {
+    background-color: #FFFFFF;
+    height: 20px;
+}
+
+.indentation-10 {
+    background-color: #FFFFFF;
+    height: 10px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.fonts-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.font {
+    width: 50%;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-system {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.main-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+.button {
+    padding-left: 20px;
+    padding-top: 14px;
+    padding-right: 20px;
+    padding-bottom: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
+    border-radius: 90px;
+    border: 0;
+}
+
+
+.button--primary {
+    background-color: #DAEF88;
+    transition: 0.3s;
+}
+
+.button--primary:hover {
+    background-color: #CEE572;
+    transition: 0.3s;
+}
+
+.button--secondary {
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.button--secondary:hover {
+    background-color: #DAEF88;
+    transition: 0.3s;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 0
+}
+
+.button-card {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.icon-button {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    border: 0;
+}
+
+.composed-button {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-divider {
+    margin: -16px;
+    fill: #DAEF88;
+}
+
+.button--thirdly {
+    background-color: #DAEF88;
+}
+
+.input {
+    width: 420px;
+    height: 60px;
+    border-radius: 90px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    font-family: 'Nunito', sans-serif;
+    border: 0;
+}
+
+.input--active {
+    border: 2px solid #DAEF88;
+}
+
+.input--error {
+    border: 2px solid #FF6543;
+}
+
+.input-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.modal-window {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    background: rgba(0,0,0,0.5)
+}
+
+.modal {
+    position: absolute;
+    padding: 20px;
+    width: 670px;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 30px;
+}
+
+.modal-subtitle {
+    margin-top: 10px;
+    line-height: 100%;
+}
+
+#hide-modal {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
